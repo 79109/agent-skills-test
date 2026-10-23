@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-field-diagnosis"
+  short_description: "综合现场证据比较可能原因，核对适用条款并提出有针对性的复核路径"
+  default_prompt: "请使用 $mining-field-diagnosis，根据这些现场记录和监测信息比较可能原因，核对相关规范并提出复核路径。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,17 @@
+{
+  "factors": {
+    "material_group": [
+      "A",
+      "B"
+    ],
+    "water_pct": [
+      0,
+      5
+    ]
+  },
+  "replicates": 2,
+  "blocks": [
+    "batch-1"
+  ],
+  "seed": 37
+}

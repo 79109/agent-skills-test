@@ -1,0 +1,7 @@
+interface:
+  display_name: "monograph-reader"
+  short_description: "重建专著的问题、假设与论证脉络，解释理论贡献、争议和适用边界"
+  default_prompt: "请使用 $monograph-reader，梳理这部专著或指定章节的理论主线、关键论证和讨论价值。"
+
+policy:
+  allow_implicit_invocation: true

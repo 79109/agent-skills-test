@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-field-record"
+  short_description: "关联巡检文字、照片与采样记录，整理可核对的现场台账和事件经过"
+  default_prompt: "请使用 $mining-field-record，将这些现场材料整理为台账或报告，指出缺项和记录冲突。"
+
+policy:
+  allow_implicit_invocation: true

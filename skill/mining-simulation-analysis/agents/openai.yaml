@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-simulation-analysis"
+  short_description: "梳理采矿数值模型与工况，通过参数敏感性和实测校核解释结果"
+  default_prompt: "请使用 $mining-simulation-analysis，检查我提供的模型或结果，分析关键参数、可信范围和改进方向。"
+
+policy:
+  allow_implicit_invocation: true

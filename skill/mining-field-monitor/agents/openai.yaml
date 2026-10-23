@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-field-monitor"
+  short_description: "结合阈值、历史基线与测点关联识别监测异常，定位值得优先复核的事件"
+  default_prompt: "请使用 $mining-field-monitor，检查这批监测数据，定位异常事件并说明触发依据与复核方向。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "textbook-reader"
+  short_description: "提炼教材知识结构、公式适用条件与易混点，形成可用于教学的解读"
+  default_prompt: "请使用 $textbook-reader，解读这些教材章节，梳理知识联系、核心公式和学习难点。"
+
+policy:
+  allow_implicit_invocation: true

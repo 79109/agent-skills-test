@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-experiment-protocol"
+  short_description: "围绕采矿研究问题选择试验设计，优化对照、因素组合与测量安排"
+  default_prompt: "请使用 $mining-experiment-protocol，根据我的研究问题和试验条件，设计能够检验假设的试验方案。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "course-designer"
+  short_description: "从学习目标反向设计课程内容、活动和评价，适配学情与教学资源"
+  default_prompt: "请使用 $course-designer，根据教学对象、学习目标和课时条件，设计可实施的课程安排。"
+
+policy:
+  allow_implicit_invocation: true

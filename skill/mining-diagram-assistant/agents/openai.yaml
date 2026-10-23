@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-diagram-assistant"
+  short_description: "将工程资料绘成可编辑的采矿示意图，清晰表达空间、连接与监测关系"
+  default_prompt: "请使用 $mining-diagram-assistant，根据我提供的工程资料绘制示意图，并提供可编辑版本。"
+
+policy:
+  allow_implicit_invocation: true

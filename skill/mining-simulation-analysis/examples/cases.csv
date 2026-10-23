@@ -1,0 +1,6 @@
+case_id,status,stiffness,lateral_ratio,displacement
+base,completed,100,1,10
+stiffness_high,completed,120,1,8
+ratio_high,completed,100,1.2,13
+joint_change,completed,120,1.2,9
+failed_case,failed,80,1,

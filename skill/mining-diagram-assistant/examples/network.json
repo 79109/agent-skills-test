@@ -1,0 +1,45 @@
+{
+  "title": "巷道连接示意（合成样例）",
+  "width": 900,
+  "height": 500,
+  "nodes": [
+    {
+      "id": "entrance",
+      "label": "入口",
+      "x": 140,
+      "y": 250
+    },
+    {
+      "id": "main",
+      "label": "主巷",
+      "x": 400,
+      "y": 250
+    },
+    {
+      "id": "a",
+      "label": "采区 A",
+      "x": 700,
+      "y": 150
+    },
+    {
+      "id": "b",
+      "label": "采区 B",
+      "x": 700,
+      "y": 350
+    }
+  ],
+  "edges": [
+    {
+      "from": "entrance",
+      "to": "main"
+    },
+    {
+      "from": "main",
+      "to": "a"
+    },
+    {
+      "from": "main",
+      "to": "b"
+    }
+  ]
+}

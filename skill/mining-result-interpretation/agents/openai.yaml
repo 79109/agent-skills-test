@@ -1,0 +1,7 @@
+interface:
+  display_name: "mining-result-interpretation"
+  short_description: "结合试验、监测与模拟证据解释采矿现象，辨析机理及结论适用范围"
+  default_prompt: "请使用 $mining-result-interpretation，分析这些研究结果，说明主要发现、可能机理和证据局限。"
+
+policy:
+  allow_implicit_invocation: true
